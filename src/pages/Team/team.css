@@ -1,0 +1,100 @@
+.slick-slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px; /* Reduced padding for a tighter layout */
+    max-width: 80%; /* Constrains slider width */
+    margin: 0 auto; /* Centers the slider */
+  }
+  
+  .slick-list {
+    overflow: hidden;
+    padding: 20px 0; /* Reduced padding around the slider */
+    width: 100%;
+  }
+  
+  .slick-track {
+    display: flex;
+  }
+  
+  .slick-slide div {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slick-slide .image {
+    object-fit: cover;
+    border-radius: 2px;
+    width: 80%;
+    max-width: 150px;
+  }
+  
+  .slider-name,
+  .slider-position {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #111;
+    width: 150px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .slick-slider {
+      max-width: 90%; /* Slightly wider on smaller screens */
+    }
+    .slick-slide .image {
+      width: 60%;
+      max-width: 120px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slick-slider {
+      max-width: 95%; /* Allows a bit more room for mobile */
+    }
+    .slick-slide .image {
+      width: 70%;
+      max-width: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 580px) {
+    .slider-name,
+    .slider-position {
+      display: none;
+    }
+    .slick-slide.slick-current .slider-name,
+    .slick-slide.slick-current .slider-position {
+      display: block;
+      font-size: 0.7rem;
+    }
+  }
+  
+  .custom-prevArrow,
+  .custom-nextArrow {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .custom-prevArrow {
+    left: -20px;
+  }
+  
+  .custom-nextArrow {
+    right: -20px;
+  }
+  
+  .custom-prevArrow:hover,
+  .custom-nextArrow:hover {
+    fill: red;
+    cursor: pointer;
+  }
+  
