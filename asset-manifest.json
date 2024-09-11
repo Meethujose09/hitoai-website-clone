@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/hitoai-website-clone/static/css/main.9c31bc40.css",
+    "main.js": "/hitoai-website-clone/static/js/main.f52e7448.js",
+    "static/media/img.png": "/hitoai-website-clone/static/media/img.0f98c75fb3552033f31f.png",
+    "static/media/slick.svg": "/hitoai-website-clone/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/hitoai-website-clone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/hitoai-website-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/hitoai-website-clone/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/hitoai-website-clone/index.html",
+    "main.9c31bc40.css.map": "/hitoai-website-clone/static/css/main.9c31bc40.css.map",
+    "main.f52e7448.js.map": "/hitoai-website-clone/static/js/main.f52e7448.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c31bc40.css",
+    "static/js/main.f52e7448.js"
+  ]
+}
