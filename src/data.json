@@ -1,43 +1,75 @@
 [
-    {
-      "name": "Dr. Shahram Azizi Sazi",
-      "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/sas.jpeg",
-      "position": "CEO"
-    },
-    {
-      "name": "Dr. Mina Ghahrenanzamaneh",
-      "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/mgh.jpg",
-      "position": "Managing Director"
-    },
-    {
-      "name": "Shenal Elekuttige",
-      "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/shenal-e.jpg",
-      "position": "Chief Scientist Officer"
-    },
-    {
-      "name": "Baqer Al Shakhs, MBA",
-      "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/baqer.jpg",
-      "position": "Chief Commercial Officer"
-    },
-    {
-      "name": "Aswanth Manoharan",
-      "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/asm.png",
-      "position": "Data Scientist/Machine Learning Expert"
-    },
-    {
-      "name": "Sadek Moussaoui",
-      "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/sadek.jpg",
-      "position": "Business Analyst & Developer"
-    },
-    {
-      "name": "Omkar",
-      "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/omkar.jpeg",
-      "position": "Product and UI Designer"
-    },
-    {
-      "name": "Fatima Abdullahi Wan",
-      "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/fatimah.png",
-      "position": "Graphic Designer & Marketing Executive"
-    }
-  ]
+  {
+    "name": "Dr. Shahram Azizi Sazi",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/sas.jpeg",
+    "position": "CEO",
+    "description": "Dr. Shahram Azizi is a  renowned Senior Lecturer in Artificial Intelligence and Computing with over two decades of experience in data-driven solutions across diverse sectors. Since 2018, he has excelled as a Senior Data Scientist, leading the development of AI-powered software and machinery. His profound expertise  and pioneering efforts continuously drive progress in AI and computing."
+  },
+  {
+    "name": "Dr. Mina Ghahrenanzamaneh",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/mgh.jpg",
+    "position": "Managing Director",
+    "description": " Dr. M Ghahrenanzamaneh is a university lecturer and successful entrepreneur in the fields of EdTech and AI. She directs and owns two Irish startups, BIASADRA and HitoAI Limited. Additionally, she is a shareholder in GalMAX, a company innovating in bioprocessing at UCD."
+  },
+  {
+    "name": "Shenal Elekuttige",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/shenalphoto.jpg",
+    "position": "Chief Scientist Officer",
+    "description": " Shenal serves as the Chief Scientific Officer and is a seasoned AI modeler with a proven track record in developing and deploying advanced AI solutions, particularly in startup environments. His expertise encompasses machine learning, data analytics, and predictive modeling."
+  },
+  {
+    "name": "Baqer Al Shakhs, MBA",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/baqerphoto.jpg",
+    "position": "Chief Commercial Officer",
+    "description": "Baqer Al Shakhs is a Business Development and Data Analytics Specialist with over eight years of experience in startups, retail, and consulting. He holds an MBA and is pursuing an MS in Data Analytics at Dublin Business School. Baqer excels in solving complex challenges and delivering innovative solutions using his skills in data modeling, machine learning, Python, and R. His expertise in project management and strategic thinking has consistently driven growth and optimized operations"
+  },
+  {
+    "name": "Aswanth Manoharan",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/aswanth.jpeg",
+    "position": "Data Scientist/Machine Learning Expert",
+    "description": " Aswanth Manoharan is a data science and machine learning expert with extensive experience in data analysis, machine learning, and full-stack web development. He has worked as a Data Science Trainee, Machine Learning Intern, and Python Development Intern. As a freelancer, he developed a web application for a supermarket using Django Rest Framework and React.js. Aswanth has strong skills in Python, Django, React.js, and various machine-learning frameworks, and is dedicated to continuous learning and innovation."
+  },
+  {
+    "name": "Omkar Patil",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/omkar-1.jpeg",
+    "position": "Product and UI Designer",
+    "description": " Omkar Patil is a V-shaped Product Designer with experience in designing innovative solutions for enterprise SAAS, B2B/B2C platforms covering mobile and web applications. She fosters a user-centered approach and business-oriented solutions throughout the entire design lifecycle, which includes requirement gathering, design thinking, rapid prototyping, user testing, and collaborating with cross-functional teams. Additionally, Omkar possesses expertise in 3D, AR, and VR, along with motion design, interaction design and visual design."
+  },
+  {
+    "name": "Sadek Moussaoui",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/sadek_photo.jpg",
+    "position": "Business Analyst & Developer",
+    "description": " Sadek Moussaoui is a versatile professional with over seven years of experience in the banking sector, specializing in data analysis, compliance, and project management. He holds a Master’s degree in Information Systems from University College Dublin and is passionate about technology, cloud computing, and open-source intelligence (OSINT). Known for his flexibility and multidisciplinary expertise, he excels in synthesizing information to drive innovation and is great at collaboration to achieve business goals and continuous improvement."
+  },
+  {
+    "name": "Thang Dang",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/profile-photo-1.png",
+    "position": "IoT Programmer and Developer",
+    "description": " Thang Dang is an IoT programmer with a strong interest in various programming areas, including web and mobile design and development, data analysis, database design, RPA, and game development. He is proficient in multiple programming disciplines, such as web and mobile development, data processing and analysis, database design, RPA, and game development."
+  },
+  {
+    "name": "Meethu Jose ",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/Meethu.jpg",
+    "position": "Full Stack Developer",
+    "description": " Meethu Jose is an experienced Full Stack Developer with nearly three years of expertise in both frontend and backend development, holding a Master's degree in Data Analytics from Dublin Business School. Skilled in modern JavaScript frameworks like ReactJS, NodeJS, and Express.JS, with a focus on building scalable web applications, creating user-friendly interfaces, and optimizing performance for high-traffic sites. Proficient in Agile methodologies and DevOps principles, with front-end experience in responsive design, Redux, Material UI, and AntD, and back-end skills in MongoDB, Firebase, and developing RESTful APIs.."
+  },
+  {
+    "name": "Venkaiah  Malli ",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/malli.jpg",
+    "position": "Data Scientist",
+    "description": " Venkaiah Malli is an experienced data analyst and machine learning developer, skilled in extracting insights from complex datasets and building predictive models to solve real-world problems. He has a solid background in data analysis, statistical modeling, and machine learning techniques, enabling him to effectively interpret data, make informed decisions, and develop data-driven solutions. With a keen eye for detail and a passion for innovation, Venkaiah applies his expertise to enhance business processes, optimize performance, and contribute to the development of intelligent systems."
+  },
   
+  {
+    "name": "Fatima Abdullahi Wan",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/fatimah.png",
+    "position": "Graphic Designer & Marketing Executive",
+    "description": " Fatima is a recent Product Design graduate from Maynooth University with experience in graphic design, CAD modelling, prototyping, and marketing. She is currently pursuing a master’s in Medical Device Design at NCAD, applying her creativity and innovation skills to the medical field."
+  },
+  {
+    "name": "Swati Mandaokar",
+    "image": "https://hitoai.ai/v2/wp-content/uploads/2024/09/professional-photo.jpg",
+    "position": "Software Developer",
+    "description": "Swati Mandaokar is Frontend Developer with 4 years of hands-on experience, I specialize in building responsive, user-friendly web applications using modern technologies such as HTML5, CSS3, JavaScript, React. Passionate about creating seamless user experiences, optimizing web performance, and maintaining clean, maintainable code. Throughout my career, I've successfully collaborated with cross-functional teams to design and implement features that improve user engagement, accessibility, and application performance."
+  }
+]

@@ -63,27 +63,30 @@ const TeamPage = ({ sliderData }) => {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                    centerPadding: "20px",
+                    centerPadding: "10px",
                 },
             },
         ],
     };
 
-    return (<div  className="bg-white min-h-screen flex flex-col justify-center items-center py-20 px-12">
-        <h2 className="text-6xl font-bold text-center mb-16">Our Team</h2>
-        <Slider {...settings}>
-            {sliderData.map((slide, index) => {
-                return (
-                    <div key={index}>
-                        <img src={slide.image} alt={slide.name} className="image" />
-                        <span className="slider-name">{slide.name}</span>
-                        <span className="slider-position">{slide.position}</span>
-                    </div>
-                );
-            })}
-        </Slider>
-    </div>
-
+    return (
+        <div className="bg-white min-h-screen flex flex-col justify-center items-center py-20 px-12">
+            <h2 className="text-5xl font-bold text-center mb-16">Our Team</h2>
+            <Slider {...settings}>
+                {sliderData.map((member, index) => {
+                    return (
+                        <div key={index} className="team-card">
+                            <img src={member.image} alt=''className="team-image" />
+                            <div className="team-info">
+                                <h3 className="team-name">{member.name}</h3>
+                                <p className="team-position">{member.position}</p>
+                                <p className="team-description">{member.description}</p>
+                            </div>
+                        </div>
+                    );
+                })}
+            </Slider>
+        </div>
     );
 };
 

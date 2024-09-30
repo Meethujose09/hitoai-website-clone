@@ -1,70 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+Setup and Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+To run this project locally, follow the instructions below:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the Repository:
 
-### `yarn build`
+  git clone https://github.com/Meethujose09/hitoai-website-clone.git
+  cd hitoai-website-clone
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install Dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make sure you have Node.js installed. Then, install the required dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `yarn eject`
+Start the Development Server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start the development server to preview the application locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Access the Application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Once the server is running, open your browser and go to:
+ 
+ http://localhost:3000
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+hitoai-website-clone/
+├── assets/                     # Static assets (images, icons, etc.)
+├── components/                 # Reusable React components
+│   ├── Header.jsx              # Header component for navigation
+├── pages/                      # Page components for different sections
+│   ├── About                   # About page
+│   ├── Contact                 # Contact page// contact informations
+│   ├── Home                    # Home page // main page
+│   ├── Partners                # Partners page // details about partners and investors
+│   ├── Products                # Products page// details about the products
+│   ├── Team                    # Team page // details about the team members
+├── App.jsx                     # Root component of the React app
+├── data.json                   # JSON file for general data used in the app(team members data , profile pic,description etc)
+├── index.css                   # Global styles for the app
+├── index.js                    # Entry point of the React app
+├── investors.json              # JSON file for investor data
+├── partners.json               # JSON file for partners data
+├── .gitignore                  # Files and folders to be ignored by Git
+├── README.md                   # Project documentation
+├── package.json                # Project dependencies and scripts
+├── tailwind.config.js          # Configuration file for Tailwind CSS
+└── yarn.lock                   # Lock file for dependencies
